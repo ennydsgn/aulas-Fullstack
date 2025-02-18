@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Minha segunda página</h1>
+    <p>O que é, o que é? 🔥🐉</p>
+    <p> Nasce pequeno, mas tem um fogo que nunca se apaga.
+        Se ficar feliz, sua chama dança, mas se estiver triste, pode fraquejar.
+        Começa a jornada com um brilho no olhar,
+        E quando evolui, aprende até a voar!
+
+        Quem sou eu? 🤔</p>
+    <img src="https://media.tenor.com/Y0RNzoTdSGUAAAAM/charmander-charmander-pokemon.gif" alt="">
+    <a href="index.html">Voltar</a>
+<p>Qual o seu pokemon preferido?</p>
+
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Favorito</title>
+</head>
+<body>
+
+    <form id="pokemonForm">
+        <input type="text" id="pokemonInput" placeholder="Digite seu Pokémon favorito" required>
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="mensagem"></p>
+
+    <script>
+        document.getElementById("pokemonForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evita o recarregamento da página
+            let pokemon = document.getElementById("pokemonInput").value;
+            document.getElementById("mensagem").textContent = "Seu Pokémon favorito é " + pokemon + "!";
+        });
+    </script>
+</body>
+</html>
