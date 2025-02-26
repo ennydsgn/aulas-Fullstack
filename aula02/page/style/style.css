@@ -1,0 +1,74 @@
+h1 {
+    color: rgb(98, 15, 172);
+}
+h2 {
+    color: rgb(98, 15, 172);
+}
+body {
+    display: ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+
+a {
+    color: rgb(98, 15, 172);
+
+}
+
+.logincontainer {
+    background-color: white;
+    padding: 25px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+input {
+    width: 90%;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    display: block;
+}
+
+input,
+button {
+    width: 90%;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    display: block;
+}
+
+button {
+    background-color: rgb(187, 21, 212);
+    color: white;
+    border: none;
+}
